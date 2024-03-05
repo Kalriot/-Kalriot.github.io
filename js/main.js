@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const careerData = {};
     const days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
 
-    fetch('carreras/Fisi.json')
+    fetch('Fisi.json')
         .then(response => response.json())
         .then(horariosData => {
             createScheduleTable();
